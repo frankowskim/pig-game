@@ -169,3 +169,58 @@ main {
 .hidden {
   display: none;
 }
+
+@media (max-width: 450px) {
+  main {
+    flex-direction: column;
+  }
+
+  .player {
+    order: 1;
+    padding: 5rem;
+  }
+  .player--active {
+    order: 0;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+  }
+
+  .current {
+    height: 7rem;
+    padding: 1rem;
+    margin: 0rem;
+  }
+
+  .current-label {
+    font-size: 1.3rem;
+  }
+
+  .current-score {
+    font-size: 2rem;
+  }
+
+  .score {
+    font-size: 5rem;
+  }
+
+  .btn--new {
+    top: 0%;
+  }
+
+  .btn--roll {
+    left: 25%;
+    top: 52%;
+  }
+  .btn--hold {
+    left: 75%;
+    top: 52%;
+    width: 15rem;
+  }
+
+  .dice {
+    height: 5rem;
+    top: 43%;
+  }
+}

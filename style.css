@@ -224,3 +224,39 @@ main {
     top: 43%;
   }
 }
+
+@media (450px < width < 1000px) {
+  .btn {
+    font-size: 1rem;
+  }
+
+  .btn--new {
+    margin-top: 8rem;
+  }
+
+  .btn--roll {
+    top: 60%;
+  }
+
+  .btn--hold {
+    top: 73%;
+  }
+
+  .dice {
+    top: 35%;
+    height: 8rem;
+  }
+  .current {
+    margin-bottom: 3rem;
+    width: 15rem;
+  }
+
+  .player {
+    margin-top: 3rem;
+  }
+
+  .name {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+}
